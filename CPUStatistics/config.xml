@@ -1,0 +1,17 @@
+<xml>
+<param arg="-serverIP" defaultVal="192.168.1.17"/>
+<param arg="-serverPort" defaultVal="5000"/>
+<!-- sample collection interval in seconds-->
+<param arg="-serviceSelfIter" defaultVal="1"/>
+<!-- transport sample to the server interval in minutes-->
+<param arg="-sendServerIter" defaultVal="1"/>
+<!-- Process names to be monitored-->
+<processes>
+	<!-- Module name associated with the process -->
+	<!--for -monModule the default value should be .dll-->
+	<!-- for -displayName, the display name for the monitoring process-->
+	<process arg1="-monProcess" defaultVal1="IEXPLORE" arg2="-monModule" defaultVal2="imsclient.dll" arg3="-displayName" defaultVal3="VSOM"/>
+	<process arg1="-monProcess" defaultVal1="mspaint" arg2="-monModule" defaultVal2=".dll" arg3="-displayName" defaultVal3=""/>
+	<process arg1="-monProcess" defaultVal1="notepad" arg2="-monModule" defaultVal2=".dll" arg3="-displayName" defaultVal3=""/>
+</processes>
+</xml>
