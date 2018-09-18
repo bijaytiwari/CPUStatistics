@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CPUStatistics")]
 [assembly: AssemblyDescription("Windows Performance Monitoring Tool")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Cisco")]
+[assembly: AssemblyCompany("MyCompany")]
 [assembly: AssemblyProduct("CPUStatistics")]
-[assembly: AssemblyCopyright("Copyright © Cisco 2010")]
+[assembly: AssemblyCopyright("Copyright © MyCompany 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
